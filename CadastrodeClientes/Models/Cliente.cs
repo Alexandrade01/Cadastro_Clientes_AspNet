@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace CadastrodeClientes.Models
 {
-
+    //Criacao de tabela de clientes
     [Table("Clientes")]
     public class Cliente
-    {
+    { //Regra de negocio do cliente, usando Id,Nome,Telefone e Email
+        //Display o que sera mostrado e column em qual coluna
+
         [Display(Name = "ID")]
         [Column("ID")]
         public int Id { get; set; }

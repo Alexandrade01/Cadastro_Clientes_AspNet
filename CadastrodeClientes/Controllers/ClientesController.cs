@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CadastrodeClientes.Models;
 
 namespace CadastrodeClientes.Controllers
-{
+{ //Criação de controller do jeito mais pratico usando o EntityFramework
     public class ClientesController : Controller
     {
         private readonly Contexto _context;
