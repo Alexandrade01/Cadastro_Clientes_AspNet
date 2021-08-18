@@ -11,7 +11,7 @@ namespace CadastrodeClientes.Models
     [Table("Clientes")]
     public class Cliente
     {
-        [Display(Name = "Id")]
+        [Display(Name = "ID")]
         [Column("ID")]
         public int Id { get; set; }
 
@@ -21,7 +21,7 @@ namespace CadastrodeClientes.Models
 
         [Display(Name = "Telefone")]
         [Column("Telefone")]
-        public int Telefone { get; set; }
+        public string Telefone { get; set; }
 
         [Display(Name = "Email")]
         [Column("Email")]
